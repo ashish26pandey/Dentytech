@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100vh;
+  width: 100vw;
+  background-color:#fff;
+}
+#nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+#nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-part1>h3{
+  font-size: 1vw;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+#nav-part1>i{
+  font-size: 16px;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+#nav-part2>h1{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+}
+#nav-part3>button{
+  font-size: 1vw;
+  padding: 7px 12px;  
+  border: 1.5px solid #000;
+  border-radius: 50PX;
+  font-weight: 600;
+}
+#btn1{
+  background-color: orangered;
+  color: #fff;
+  border: none;
+}
+#main>h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 150px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+img{
+  height: 450px;
+  width: 400px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  align-items: center;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+#box1{
+  transform: translate(-50%,-50%) rotate(-20deg);
+}
+#box2{
+  transform: translate(-50%,-50%) rotate(20deg);
+}
+#box3{
+  transform: translate(-50%,-50%) rotate(10deg);
+}
+#box4{
+  transform: translate(-50%,-50%) rotate(-10deg);
+}
+#main>h5{
+  position: absolute;
+  top: 90%;
+  padding: 0px 50px;
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#btm-heading h5{
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  padding: 0px 50px;
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#boxx{
+  position: absolute;
+  top: 94%;
+  left: 89%;
+  font-size: 1.5vw;
+}
